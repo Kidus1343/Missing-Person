@@ -101,7 +101,7 @@ namespace Project_01.Controllers
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com");
 
                 //Create nerwork credential and you need to give from email address and password
-                NetworkCredential networkCredential = new NetworkCredential("decekikuul@gmail.com", "ltrd vwwv luwy imcz");
+                NetworkCredential networkCredential = new NetworkCredential("decekikuul@gmail.com", "password");
                 smtpClient.UseDefaultCredentials = false;
                 smtpClient.Credentials = networkCredential;
                 smtpClient.Port = 587; // this is default port number - you can also change this
