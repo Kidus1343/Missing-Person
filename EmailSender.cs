@@ -14,7 +14,7 @@ namespace Project_01
             {
                 EnableSsl = true,
                 UseDefaultCredentials = false,
-                Credentials = new NetworkCredential("decekikuul@gmail.com", "ltrd vwwv luwy imcz")
+                Credentials = new NetworkCredential("decekikuul@gmail.com", "password")
             };
 
             return client.SendMailAsync(
