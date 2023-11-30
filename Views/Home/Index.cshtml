@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Missing Person</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Report a Missing Person</h1>
+
+        <p>If you believe someone you know is missing, please fill out the following form to notify the authorities.</p>
+
+        <form action="/report-missing-person" method="post">
+            <div class="form-group">
+                <label for="missingPersonName">Missing Person's Name:</label>
+                <input type="text" class="form-control" id="missingPersonName" name="missingPersonName" placeholder="Enter the missing person's name" required>
+            </div>
+            <div class="form-group">
+                <label for="missingPersonAge">Missing Person's Age:</label>
+                <input type="number" class="form-control" id="missingPersonAge" name="missingPersonAge" placeholder="Enter the missing person's age" required>
+            </div>
+            <div class="form-group">
+                <label for="missingPersonDescription">Missing Person's Description:</label>
+                <textarea class="form-control" id="missingPersonDescription" name="missingPersonDescription" rows="3" placeholder="Enter a description of the missing person, including their physical appearance, clothing, and any distinguishing marks" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="lastSeenLocation">Last Seen Location:</label>
+                <input type="text" class="form-control" id="lastSeenLocation" name="lastSeenLocation" placeholder="Enter the last location where the missing person was seen" required>
+            </div>
+            <div class="form-group">
+                <label for="lastSeenDate">Last Seen Date:</label>
+                <input type="date" class="form-control" id="lastSeenDate" name="lastSeenDate" required>
+            </div>
+            <div class="form-group">
+                <label for="lastSeenTime">Last Seen Time:</label>
+                <input type="time" class="form-control" id="lastSeenTime" name="lastSeenTime" required>
+            </div>
+            <div class="form-group">
+                <label for="contactInformation">Your Contact Information (Optional):</label>
+                <textarea class="form-control" id="contactInformation" name="contactInformation" rows="3" placeholder="Enter your contact information in case the authorities need to reach you for further information"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Report</button>
+        </form>
+
+        <p><b>Please note:</b> This form is intended to notify the authorities about a missing person. If you believe the missing person is in immediate danger, please call 911 or your local emergency number. Use Contact Us Page to send feedback</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
