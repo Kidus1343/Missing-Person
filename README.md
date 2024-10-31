@@ -45,27 +45,28 @@ In appsettings.json, set up SMTP details to enable email communication:
     "SenderPassword": "your-email-password"
 }
 
-Run the Application
+### Run the Application
+To run the application, use the following command:
 
-bash
-Copy code
+```bash
 dotnet run
-The application will be available at https://localhost:5001.
 
-Usage
-Adding Missing Person Data
+
+## Usage
+
+### Adding Missing Person Data
 Users can submit details of a missing individual, including their name, age, and physical description, as well as the circumstances of their disappearance.
 
-Contact Us for Inquiries
+### Contact Us for Inquiries
 Users can reach out via the Contact Us page, where dependency injection allows for efficient email routing to different providers using SMTP. This functionality can notify relevant personnel about new missing person entries or inquiries regarding ongoing cases.
 
-Contribution
+## Contribution
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature (git checkout -b feature/AmazingFeature).
-Commit your changes (git commit -m 'Add some AmazingFeature').
-Push to the branch (git push origin feature/AmazingFeature).
-Open a pull request.
-License
-This project is licensed under the MIT License.
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+
